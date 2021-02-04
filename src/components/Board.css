@@ -1,0 +1,19 @@
+.first{
+    display: flex;
+    flex-direction: row;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+}
+.board{
+  display: grid;
+  justify-content: center;
+}
+.first>.left{
+    border-left: none;
+}
